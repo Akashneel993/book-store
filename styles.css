@@ -1,0 +1,157 @@
+/* --- General Styles --- */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #FFF9F2;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+/* --- Navigation Bar --- */
+nav {
+  background: linear-gradient(135deg, #ff9bb3, #a2e1d4);
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+nav h2 {
+  color: white;
+  font-size: 24px;
+}
+
+#search {
+  padding: 8px;
+  margin: 5px;
+  width: 200px;
+  border: none;
+  border-radius: 5px;
+}
+
+#dark-mode-toggle {
+  padding: 8px;
+  background: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#dark-mode-toggle:hover {
+  background: #555;
+}
+
+/* --- Logo Styling (Fixed Visibility) --- */
+.logo-navbar, .logo-header, .logo-footer {
+  width: auto;
+  max-width: 100%;
+  display: block;
+  margin: auto;
+  visibility: visible;
+  opacity: 1;
+  object-fit: contain; /* Ensure logo scales properly */
+}
+
+.logo-navbar {
+  width: 80px;
+}
+
+.logo-header {
+  width: 200px;
+}
+
+.logo-footer {
+  width: 70px;
+}
+
+/* --- Slogan Styling --- */
+.slogan {
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  font-weight: bold;
+  color: #ff3366;
+  text-align: center;
+  letter-spacing: 2px;
+  margin-top: 15px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* --- Dark Mode Styles --- */
+.dark-mode {
+  background-color: #222;
+  color: white;
+}
+
+/* --- Book Section --- */
+#books-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.book-card {
+  width: 280px;
+  background: white;
+  margin: 15px;
+  padding: 12px;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.book-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.book-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.book-card h3 {
+  font-size: 18px;
+  color: #ff9bb3;
+}
+
+.book-card p {
+  font-size: 14px;
+  color: #555;
+}
+
+/* --- Buttons --- */
+.btn {
+  display: block;
+  padding: 10px;
+  background: linear-gradient(135deg, #ff9bb3, #a2e1d4);
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background: #a2e1d4;
+  color: #333;
+  transform: scale(1.05);
+}
+
+/* --- Footer --- */
+footer {
+  padding: 20px;
+  background-color: #ff9bb3;
+  color: white;
+  text-align: center;
+}

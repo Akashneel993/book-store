@@ -1,0 +1,72 @@
+[
+  {
+    "title": "My First Alphabet Book",
+    "author": "Akash Neel",
+    "subtitle": "A bright and colorful A to Z animal adventure for toddlers and preschoolers",
+    "description": "Spark your child’s love for letters with this delightful and educational journey from A to Z! My First Alphabet Book is a vibrant and engaging introduction to the alphabet...",
+    "image": "images/my-first-alphabet.jpg",
+    "link": "https://a.co/d/11kVo8B",
+    "category": "Educational",
+    "pages": 30,
+    "price": "$9.99",
+    "isbn": "978-1234567890",
+    "publish_date": "2024-05-12",
+    "rating": "4.8"
+  },
+  {
+    "title": "The Great Alphabet Safari",
+    "author": "Akash Neel",
+    "subtitle": "An A to Z Jungle Adventure with Animal Friends, Hidden Letters & Fun Learning Activities for Kids Ages 3–6",
+    "description": "Embark on a wild learning adventure through the alphabet! The Great Alphabet Safari is not just an ABC book—it’s a thrilling jungle expedition...",
+    "image": "images/great-alphabet-safari.jpg",
+    "link": "https://a.co/d/8s4cRgC",
+    "category": "Interactive Learning",
+    "pages": 40,
+    "price": "$11.99",
+    "isbn": "978-0987654321",
+    "publish_date": "2024-03-18",
+    "rating": "4.7"
+  },
+  {
+    "title": "Love Yourself First",
+    "author": "Akash Neel",
+    "subtitle": "A Guided Journal for Self-Acceptance, Confidence & Inner Healing",
+    "description": "Step into a space where your heart is heard, your thoughts are valued, and your journey matters...",
+    "image": "images/love-yourself-first.jpg",
+    "link": "https://a.co/d/4n5AXJR",
+    "category": "Self-Care & Journaling",
+    "pages": 100,
+    "price": "$12.99",
+    "isbn": "978-5678943210",
+    "publish_date": "2024-02-20",
+    "rating": "4.9"
+  },
+  {
+    "title": "Let’s Learn Letters",
+    "author": "Akash Neel",
+    "subtitle": "ABC Coloring & Tracing Book for Kids Ages 3–6",
+    "description": "Let’s Learn Letters! is a fun and educational ABC coloring and tracing book designed especially for kids ages 3 to 6...",
+    "image": "images/lets-learn-letters.jpg",
+    "link": "https://a.co/d/8rUxCdt",
+    "category": "Early Learning",
+    "pages": 70,
+    "price": "$10.99",
+    "isbn": "978-1122334455",
+    "publish_date": "2024-01-15",
+    "rating": "4.6"
+  },
+  {
+    "title": "Chakra Mandala Coloring Book",
+    "author": "Akash Neel",
+    "subtitle": "A Calming Collection of 50 Chakra, Cosmic, Geometric & Spiritual Mandalas",
+    "description": "Find peace and inspiration with the Chakra Mandala Coloring Book, featuring 50 beautiful mandalas...",
+    "image": "images/chakra-mandala.jpg",
+    "link": "https://a.co/d/bF05uuK",
+    "category": "Mindfulness & Coloring",
+    "pages": 50,
+    "price": "$13.99",
+    "isbn": "978-5544332211",
+    "publish_date": "2024-04-05",
+    "rating": "4.7"
+  }
+]
