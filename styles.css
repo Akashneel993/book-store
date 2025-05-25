@@ -50,7 +50,7 @@ nav h2 {
   background: #555;
 }
 
-/* --- Logo Styling (Fixed Visibility) --- */
+/* --- Logo Styling --- */
 .logo-navbar, .logo-header, .logo-footer {
   width: auto;
   max-width: 100%;
@@ -58,7 +58,7 @@ nav h2 {
   margin: auto;
   visibility: visible;
   opacity: 1;
-  object-fit: contain; /* Ensure logo scales properly */
+  object-fit: contain;
 }
 
 .logo-navbar {
@@ -97,6 +97,8 @@ nav h2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 20px;
+  padding: 20px;
 }
 
 .book-card {
@@ -154,4 +156,18 @@ footer {
   background-color: #ff9bb3;
   color: white;
   text-align: center;
+}
+
+/* --- Animations --- */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.book-card {
+  animation: fadeIn 1s ease-in-out;
 }
